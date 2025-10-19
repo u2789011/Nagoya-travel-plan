@@ -1,0 +1,1248 @@
+.header
+  h1 🇯🇵 名古屋六天五夜
+  p 2025/12/3 (二) - 12/8 (一)
+
+.nav-tabs
+  button.nav-tab.active(onclick="showTab('overview')") 總覽
+  button.nav-tab(onclick="showTab('day1')") Day 1
+  button.nav-tab(onclick="showTab('day2')") Day 2
+  button.nav-tab(onclick="showTab('day3')") Day 3
+  button.nav-tab(onclick="showTab('day4')") Day 4
+  button.nav-tab(onclick="showTab('day5')") Day 5
+  button.nav-tab(onclick="showTab('day6')") Day 6
+  button.nav-tab(onclick="showTab('restaurants')") 餐廳
+  button.nav-tab(onclick="showTab('emergency')") 緊急聯絡
+  button.nav-tab(onclick="showTab('checklist')") 清單
+
+.container
+  //- 總覽 Tab
+  #overview.tab-content.active
+    .weather-widget
+      div(style="font-size: 1.1rem; margin-bottom: 10px;") 🌡️ 名古屋 12月天氣
+      .weather-temp 3°C ~ 12°C
+      div(style="font-size: 0.9rem; margin-top: 8px;") 記得保暖！洋蔥式穿搭
+    
+    .budget-summary
+      h3(style="margin-bottom: 18px; font-size: 1.3rem;") 💰 總費用預估 (每人)
+      .budget-item
+        span ✈️ 機票
+        span TWD 5,930
+      .budget-item
+        span 🏨 住宿 (5晚)
+        span TWD 10,175
+      .budget-item
+        span 🚇 交通
+        span TWD 1,626
+      .budget-item
+        span 🍜 餐飲
+        span TWD 7,590
+      .budget-item
+        span 🎫 門票
+        span TWD 455
+      .budget-item
+        span 🛍️ 購物預算
+        span TWD 3,300-9,900
+      .budget-item
+        span 總計
+        span TWD 29,076-35,676
+    
+    .day-card
+      h3(style="margin-bottom: 15px; font-weight: 700;") 🏨 住宿資訊
+      .activity-title Comfort Hotel Nagoya Meiekiminami
+      .activity-details(style="margin-bottom: 12px;")
+        | 📍 名古屋市中村區名駅南1-14-16
+        br
+        | 📞 +81-52-581-7211
+        br
+        | ⏰ Check-in: 15:00 / Check-out: 10:00
+      .btn-group
+        a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=Comfort+Hotel+Nagoya+Meiekiminami" target="_blank") 📍 地圖導航
+    
+    .day-card
+      h3(style="margin-bottom: 15px; font-weight: 700;") 🎯 行程亮點
+      span.tag 🎨 養老天命反轉地
+      span.tag 🏸 Alpen 羽球採購
+      span.tag 🛍️ Bic Camera 逛街
+      span.tag 🎄 聖誕市集
+      span.tag 🏯 名古屋城
+      span.tag 🍜 美食巡禮
+    
+    .tips-box
+      strong(style="font-size: 1rem;") 💡 重要提醒
+      br
+      | • R・J Cafe 需提前 1-2 週訂位
+      br
+      | • あつた蓬莱軒需提前 1-2 週訂位
+      br
+      | • 第一天提早 1 小時出發機場
+      br
+      | • 週末使用 ドニチエコきっぷ 只要 ¥620
+
+  //- Day 1 Tab
+  #day1.tab-content
+    .day-card
+      .day-header
+        .day-icon ✈️
+        .day-title
+          h2 Day 1 - 12/3 (二)
+          p 抵達 + 名古屋城 + 榮商圈
+      
+      .timeline-item
+        .time 06:20
+        .timeline-content
+          .activity
+            .activity-title ✈️ 抵達中部機場 NGO
+            .activity-details 入境、提領行李
+      
+      .timeline-item
+        .time 07:00
+        .timeline-content
+          .activity
+            .activity-title 🚃 名鐵特急 → 名古屋站
+            .activity-details
+              | 約 35 分鐘，購買來回票 ¥1,780
+              br
+              | 抵達後步行 3 分鐘至飯店寄放行李
+      
+      .timeline-item
+        .time 08:00
+        .timeline-content
+          .activity
+            .activity-title ☕ Kissa KAKO 早餐
+            .activity-details
+              | 名古屋特色喫茶店，品嚐小倉吐司
+              br
+              | 📍 名古屋市中村區名駅南 1-17-28
+              br
+              | ⏰ 07:00-18:00 (週日公休)
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=Kissa+KAKO+名古屋" target="_blank") 📍 地圖導航
+      
+      .timeline-item
+        .time 09:30
+        .timeline-content
+          .activity
+            .activity-title 🛍️ 名古屋站區域逛街
+            .activity-details
+              | KITTE 名古屋、JR Gate Tower
+              br
+              | 輕鬆逛街，熟悉環境
+      
+      .timeline-item
+        .time 11:00
+        .timeline-content
+          .activity
+            .activity-title 🏬 Bic Camera 名古屋站西店
+            .activity-details
+              | 逛電器、相機、美妝、雜貨等
+              br
+              | 📍 名古屋站 JR Gate Tower 對面
+              br
+              | ⏰ 10:00-21:00
+              br
+              | 💡 滿 ¥5,000 可退稅
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=Bic+Camera+名古屋駅西店" target="_blank") 📍 地圖導航
+              a.btn.btn-web(href="https://www.biccamera.com/" target="_blank") 🌐 官網
+      
+      .timeline-item
+        .time 12:30
+        .timeline-content
+          .activity
+            .activity-title 🍜 午餐：名站地下街
+            .activity-details 矢場とん 或 世界の山ちゃん
+      
+      .timeline-item
+        .time 14:00
+        .timeline-content
+          .activity
+            .activity-title 🏨 飯店 Check-in + 休息
+            .activity-details
+              | 重要！調整時差，放鬆休息
+              br
+              | 將行李放房間整理
+      
+      .timeline-item
+        .time 15:30
+        .timeline-content
+          .activity
+            .activity-title 🏯 名古屋城
+            .activity-details
+              | 本丸御殿、天守閣外觀、金鯱橫丁
+              br
+              | 📍 名古屋市中區本丸 1-1
+              br
+              | 🎫 ¥500
+              br
+              | ⏰ 09:00-16:30
+              br
+              | 🚇 地鐵名城線「市役所站」7號出口步行5分鐘
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=名古屋城" target="_blank") 📍 地圖導航
+      
+      .timeline-item
+        .time 18:00
+        .timeline-content
+          .activity
+            .activity-title 🌆 榮商圈
+            .activity-details
+              | 綠洲 21、Sunshine Sakae、PARCO
+              br
+              | 🚇 地鐵名城線 → 東山線「榮站」
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=オアシス21+名古屋" target="_blank") 📍 地圖導航
+      
+      .timeline-item
+        .time 19:00
+        .timeline-content
+          .activity
+            .activity-title 🍽️ 晚餐：榮地區
+            .activity-details
+              | 矢場町味噌豬排 或 鰻魚飯三吃
+              br
+              | (建議提前訂位)
+      
+      .timeline-item
+        .time 21:00
+        .timeline-content
+          .activity
+            .activity-title 🏨 回飯店休息
+            .activity-details 整理戰利品，早點休息
+    
+    .alert
+      | ⚠️ 第一天剛抵達，不要排太滿行程！
+      br
+      | 預留充足休息時間很重要
+
+  //- Day 2 Tab
+  #day2.tab-content
+    .day-card
+      .day-header
+        .day-icon 🎨
+        .day-title
+          h2 Day 2 - 12/4 (三)
+          p 養老天命反轉地 / 雨天備案
+      
+      .timeline-item
+        .time 07:30
+        .timeline-content
+          .activity
+            .activity-title ☕ コメダ珈琲店 早餐
+            .activity-details
+              | 名古屋早餐文化體驗
+              br
+              | 📍 名古屋站周邊多間分店
+              br
+              | ⏰ 07:00-23:00
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=コメダ珈琲店+名古屋駅" target="_blank") 📍 地圖導航
+      
+      .timeline-item
+        .time 08:30
+        .timeline-content
+          .activity
+            .activity-title 🚃 出發 → 養老
+            .activity-details
+              | 近鐵名古屋站 → 近鐵桑名站 → 養老鐵道養老站
+              br
+              | 總車程約 1.5 小時
+      
+      .timeline-item
+        .time 10:00
+        .timeline-content
+          .activity
+            .activity-title 🎨 養老天命反轉地
+            .activity-details
+              | 體驗地景藝術，挑戰平衡感
+              br
+              | 📍 岐阜縣養老郡養老町高林 1298-2
+              br
+              | 🎫 ¥770 (含美術館)
+              br
+              | ⏰ 09:00-17:00 (週一公休)
+              br
+              | 💡 建議穿防滑運動鞋
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=養老天命反転地" target="_blank") 📍 地圖導航
+      
+      .timeline-item
+        .time 13:00
+        .timeline-content
+          .activity
+            .activity-title 🍜 養老站附近午餐
+            .activity-details 簡餐或便當
+      
+      .timeline-item
+        .time 14:00
+        .timeline-content
+          .activity
+            .activity-title 🚃 返回名古屋
+            .activity-details 養老鐵道 → 近鐵
+      
+      .timeline-item
+        .time 16:00
+        .timeline-content
+          .activity
+            .activity-title 🛍️ 加碼行程 (三選一)
+            .activity-details
+              strong 方案 1: 大須商店街
+              br
+              | 藥妝、小吃、古著
+              br
+              | 🚇 地鐵「上前津站」
+              br
+              br
+              strong 方案 2: 熱田神宮
+              br
+              | 日本三大神宮，森林散步
+              br
+              | 🚇 名鐵「神宮前站」
+              br
+              br
+              strong 方案 3: 則武之森
+              br
+              | 紅磚建築、陶瓷博物館
+              br
+              | 🚇 地鐵東山線「龜島站」
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=大須商店街" target="_blank") 📍 大須
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=熱田神宮" target="_blank") 📍 熱田
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=ノリタケの森" target="_blank") 📍 則武
+      
+      .timeline-item
+        .time 19:00
+        .timeline-content
+          .activity
+            .activity-title 🍽️ 名站晚餐
+            .activity-details 依喜好選擇
+    
+    .info-card
+      strong 🌧️ 雨天備案：
+      br
+      | 取消養老，改為市區深度遊
+      br
+      | • 德川美術館 + 德川園
+      br
+      | • 名古屋市美術館
+      br
+      | • 則武之森下午茶
+      br
+      | • 大須商店街
+      br
+      | • 四間道晚餐
+
+  //- Day 3 Tab
+  #day3.tab-content
+    .day-card
+      .day-header
+        .day-icon 🏸
+        .day-title
+          h2 Day 3 - 12/5 (四)
+          p Alpen 購物 + 大須商店街
+      
+      .alert(style="margin-bottom: 20px;") 💳 使用地鐵一日券 ¥870
+      
+      .timeline-item
+        .time 09:00
+        .timeline-content
+          .activity
+            .activity-title ☕ R・J Cafe 早午餐
+            .activity-details
+              | ⭐ 必吃！法式吐司名店
+              br
+              | 📍 名古屋市中區錦 3-15-15 CTV 錦ビル B1F
+              br
+              | ⏰ 08:00-18:00 (週一公休)
+              br
+              | 💰 ¥1,200-1,500
+              br
+              | 🔴 強烈建議提前 1-2 週訂位
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=R・J+Cafe+名古屋" target="_blank") 📍 地圖導航
+              a.btn.btn-web(href="https://tabelog.com/aichi/A2301/A230103/23000855/" target="_blank") 🌐 Tabelog
+      
+      .timeline-item
+        .time 10:30
+        .timeline-content
+          .activity
+            .activity-title 🏸 Alpen NAGOYA 大採購
+            .activity-details
+              | 預留 3-3.5 小時充足購物時間
+              br
+              br
+              strong 購物清單：
+              br
+              | • 1F-2F: HOKA 跑鞋試穿
+              br
+              | • 3F-4F: 羽球拍試打、球鞋試穿
+              br
+              | • 握把布、配件掃貨
+              br
+              | • CW-X 壓縮褲、運動服飾
+              br
+              br
+              | 📍 名古屋市中區栄 3-28-11
+              br
+              | ⏰ 10:00-20:00
+              br
+              | 💡 滿 ¥5,000 可退稅
+              br
+              | 🚇 地鐵「矢場町站」6號出口步行3分鐘
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=Alpen+NAGOYA+矢場町" target="_blank") 📍 地圖導航
+      
+      .timeline-item
+        .time 14:00
+        .timeline-content
+          .activity
+            .activity-title 🍜 矢場とん 矢場町本店
+            .activity-details
+              | 味噌豬排名店
+              br
+              | 📍 Alpen 附近步行 5 分鐘
+              br
+              | 💰 ¥1,400-1,800
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=矢場とん+矢場町本店" target="_blank") 📍 地圖導航
+              a.btn.btn-web(href="https://www.yabaton.com/" target="_blank") 🌐 官網
+      
+      .timeline-item
+        .time 15:30
+        .timeline-content
+          .activity
+            .activity-title 🛍️ 大須商店街
+            .activity-details
+              | 預留 2.5 小時
+              br
+              br
+              strong 購物重點：
+              br
+              | • 藥妝採購 (OS Drug、Sugi 藥局)
+              br
+              | • 古著店巡禮
+              br
+              | • 小吃品嚐
+              br
+              | • 動漫周邊
+              br
+              br
+              | 🚇 地鐵「上前津站」
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=大須商店街" target="_blank") 📍 地圖導航
+      
+      .timeline-item
+        .time 18:30
+        .timeline-content
+          .activity
+            .activity-title 🍽️ 大須晚餐
+            .activity-details 台灣拉麵 (味仙) / 串炸 / 居酒屋
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=味仙+今池本店" target="_blank") 📍 味仙
+    
+    .tips-box
+      | 💡 
+      strong 購物提醒：
+      br
+      | • 行李可能很重，預留整理時間
+      br
+      | • 大件商品可請店家配送飯店
+      br
+      | • 記得攜帶護照辦理退稅
+
+  //- Day 4 Tab
+  #day4.tab-content
+    .day-card
+      .day-header
+        .day-icon 🎄
+        .day-title
+          h2 Day 4 - 12/6 (五)
+          p 藝術 + 聖誕市集
+      
+      .timeline-item
+        .time 10:00
+        .timeline-content
+          .activity
+            .activity-title ☕ 喫茶ツヅキ 早午餐
+            .activity-details
+              | 特色老店，復古氛圍
+              br
+              | 📍 名古屋市中區大須 3-42-33
+              br
+              | ⏰ 09:00-18:00
+              br
+              | 💰 ¥700-1,000
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=喫茶ツヅキ+名古屋" target="_blank") 📍 地圖導航
+      
+      .timeline-item
+        .time 11:30
+        .timeline-content
+          .activity
+            .activity-title 🎨 愛知縣美術館
+            .activity-details
+              | Klimt、Picasso 等西洋名畫收藏
+              br
+              | 📍 名古屋市東區東櫻 1-13-2 (愛知藝術文化中心 10F)
+              br
+              | 🎫 常設展 ¥500
+              br
+              | ⏰ 10:00-18:00 (週五至 20:00，週一公休)
+              br
+              | 🚇 地鐵「榮站」步行 5 分鐘
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=愛知県美術館" target="_blank") 📍 地圖導航
+      
+      .timeline-item
+        .time 14:00
+        .timeline-content
+          .activity
+            .activity-title 🍜 榮地區午餐
+      
+      .timeline-item
+        .time 15:00
+        .timeline-content
+          .activity
+            .activity-title 🛍️ 榮商圈購物
+            .activity-details 松坂屋、PARCO、LACHIC、三越
+      
+      .timeline-item
+        .time 16:30
+        .timeline-content
+          .activity
+            .activity-title 🎄 名古屋聖誕市集
+            .activity-details
+              | ⭐ 最佳時段：點燈後氣氛滿分
+              br
+              br
+              strong 市集必體驗：
+              br
+              | • 熱紅酒 Glühwein ¥500-800
+              br
+              | • 德式香腸 ¥600-800
+              br
+              | • 手工藝品
+              br
+              | • 聖誕裝飾品
+              br
+              | • 紀念馬克杯 ¥1,000-1,500
+              br
+              br
+              | 📍 久屋大通公園
+              br
+              | ⏰ 約 11:00-21:00
+              br
+              | 🚇 地鐵「榮站」或「久屋大通站」
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=久屋大通公園+名古屋" target="_blank") 📍 地圖導航
+      
+      .timeline-item
+        .time 19:00
+        .timeline-content
+          .activity
+            .activity-title 🍽️ 榮晚餐
+            .activity-details 世界の山ちゃん (手羽先) / 風來坊 / 鰻魚飯
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=世界の山ちゃん+本店" target="_blank") 📍 山ちゃん
+              a.btn.btn-web(href="https://www.yamachan.co.jp/" target="_blank") 🌐 官網
+      
+      .timeline-item
+        .time 20:30
+        .timeline-content
+          .activity
+            .activity-title 🌆 綠洲 21 夜景
+            .activity-details 水の宇宙船、名古屋電視塔點燈
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=オアシス21" target="_blank") 📍 地圖導航
+
+  //- Day 5 Tab
+  #day5.tab-content
+    .day-card
+      .day-header
+        .day-icon 🌳
+        .day-title
+          h2 Day 5 - 12/7 (六)
+          p 市區深度遊 + 文化體驗
+      
+      .alert(style="margin-bottom: 20px;") 💳 使用週末券 ドニチエコきっぷ ¥620
+      
+      .timeline-item
+        .time 09:00
+        .timeline-content
+          .activity
+            .activity-title ☕ 兩口屋是清 早午餐
+            .activity-details
+              | 400年和菓子老舖
+              br
+              | 📍 JR 高島屋 10F (名古屋站直結)
+              br
+              | ⏰ 10:00-20:00
+              br
+              | 💰 ¥1,000-1,500
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=兩口屋是清+名古屋高島屋" target="_blank") 📍 地圖導航
+      
+      .timeline-item
+        .time 10:30
+        .timeline-content
+          .activity
+            .activity-title 🏛️ 上午景點 (二選一)
+            .activity-details
+              strong 方案 1: 豐田產業技術紀念館
+              br
+              | 工業科技歷史
+              br
+              | 🎫 ¥500
+              br
+              | 🚇 地鐵櫻通線「榮生站」步行 3 分
+              br
+              br
+              strong 方案 2: 覺王山日泰寺 + 參道
+              br
+              | 復古商店街、咖啡廳林立
+              br
+              | 🚇 地鐵東山線「覺王山站」
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=トヨタ産業技術記念館" target="_blank") 📍 豐田
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=覚王山日泰寺" target="_blank") 📍 覺王山
+      
+      .timeline-item
+        .time 13:00
+        .timeline-content
+          .activity
+            .activity-title 🍜 午餐
+      
+      .timeline-item
+        .time 14:00
+        .timeline-content
+          .activity
+            .activity-title 🌳 名城公園
+            .activity-details
+              | 名古屋最大公園，廣大綠地
+              br
+              | tonarinoトナリノ 網美咖啡廳
+              br
+              | 🚇 地鐵名城線「名城公園站」
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=名城公園" target="_blank") 📍 地圖導航
+      
+      .timeline-item
+        .time 16:00
+        .timeline-content
+          .activity
+            .activity-title ☕ 公園散步 + 下午茶
+            .activity-details 放鬆休息時光
+      
+      .timeline-item
+        .time 17:30
+        .timeline-content
+          .activity
+            .activity-title 🍶 四間道
+            .activity-details
+              | ⭐ 黃昏時刻最美
+              br
+              | 江戶時代歷史街區
+              br
+              | 石板路、白壁黑瓦
+              br
+              | 🚇 地鐵櫻通線「國際中心站」步行 5 分鐘
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=四間道+名古屋" target="_blank") 📍 地圖導航
+      
+      .timeline-item
+        .time 18:30
+        .timeline-content
+          .activity
+            .activity-title 🍽️ 四間道晚餐
+            .activity-details 居酒屋、割烹料理、創意料理
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=Y.MARKET+BREWING+名古屋" target="_blank") 📍 精釀啤酒
+
+  //- Day 6 Tab
+  #day6.tab-content
+    .day-card
+      .day-header
+        .day-icon ✈️
+        .day-title
+          h2 Day 6 - 12/8 (一)
+          p 離境日 - 輕鬆結束
+      
+      .alert(style="margin-bottom: 20px;") 💳 使用週末券 ドニチエコきっぷ ¥620
+      
+      .timeline-item
+        .time 09:00
+        .timeline-content
+          .activity
+            .activity-title 🏨 退房 (寄放行李飯店)
+            .activity-details Check-out 10:00
+      
+      .timeline-item
+        .time 09:30
+        .timeline-content
+          .activity
+            .activity-title ☕
+            .activity-title ☕ 星ヶ丘 Terrace
+            .activity-details
+              | 最後的悠閒咖啡廳時光
+              br
+              | 開放式購物中心，綠意盎然
+              br
+              | 📍 名古屋市千種區星が丘元町 16-50
+              br
+              | ⏰ 10:00-20:00
+              br
+              | 🚇 地鐵東山線「星ヶ丘站」直結
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=星ヶ丘テラス" target="_blank") 📍 地圖導航
+      
+      .timeline-item
+        .time 11:00
+        .timeline-content
+          .activity
+            .activity-title 🏨 回飯店取行李
+      
+      .timeline-item
+        .time 11:30
+        .timeline-content
+          .activity
+            .activity-title 🍜 名站地下街午餐
+            .activity-details 最後一餐日式料理
+      
+      .timeline-item
+        .time 12:30
+        .timeline-content
+          .activity
+            .activity-title 🛍️ 名站最後採購
+            .activity-details
+              strong 伴手禮推薦：
+              br
+              | • ゆかり 蝦餅 ¥500-1,500
+              br
+              | • 坂角總本舖 蝦仙貝 ¥1,000-3,000
+              br
+              | • 兩口屋是清 和菓子 ¥1,000-3,000
+              br
+              | • 青蛙饅頭 ¥800-2,000
+              br
+              | • 味噌醬料包 ¥400-1,200
+              br
+              br
+              | 📍 JR 高島屋地下、KITTE、藥妝店
+      
+      .timeline-item
+        .time 14:30
+        .timeline-content
+          .activity
+            .activity-title ☕ 名站咖啡廳休息
+            .activity-details 整理行李、充電
+      
+      .timeline-item
+        .time 15:30
+        .timeline-content
+          .activity
+            .activity-title 🌆 綠洲 21
+            .activity-details
+              | 白天景色拍照，最後巡禮
+              br
+              | 🚇 地鐵「榮站」直結
+            .btn-group
+              a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=オアシス21" target="_blank") 📍 地圖導航
+      
+      .timeline-item
+        .time 16:30
+        .timeline-content
+          .activity
+            .activity-title 🏨 回飯店拿行李
+            .activity-details 檢查有無遺漏物品
+      
+      .timeline-item
+        .time 17:00
+        .timeline-content
+          .activity
+            .activity-title 🚃 搭乘名鐵特急 → 機場
+            .activity-details
+              | 約 35-40 分鐘
+              br
+              | 預留充足時間
+      
+      .timeline-item
+        .time 17:45
+        .timeline-content
+          .activity
+            .activity-title ✈️ 抵達 NGO 機場
+            .activity-details
+              | • 辦理報到
+              br
+              | • 託運行李
+              br
+              | • 退稅手續 (2F)
+              br
+              | • 逛免稅店
+              br
+              | • 最後補貨
+      
+      .timeline-item
+        .time 20:00
+        .timeline-content
+          .activity
+            .activity-title 🍜 機場晚餐
+            .activity-details 風來坊、矢場とん、きしめん よし田
+      
+      .timeline-item
+        .time 22:45
+        .timeline-content
+          .activity
+            .activity-title ✈️ 起飛 → 台北
+            .activity-details
+              | MM723 約 3.5 小時飛行
+              br
+              | 12/9 (二) 01:25 抵達桃園機場
+    
+    .alert
+      | ⚠️ 離境日時間要充裕！
+      br
+      | 建議提早 2.5-3 小時到機場
+
+  //- 餐廳訂位 Tab
+  #restaurants.tab-content
+    .section-title 🔴 強烈建議訂位
+    
+    .restaurant-card
+      .restaurant-name
+        | R・J Cafe
+        span.priority-badge.priority-high 最高優先
+      .restaurant-info
+        | 📅 12/5 (四) 09:00
+        br
+        | 📍 名古屋市中區錦 3-15-15 CTV 錦ビル B1F
+        br
+        | 💰 ¥1,200-1,500
+        br
+        | ⏰ 08:00-18:00 (週一公休)
+        br
+        | ⚠️ 超人氣排隊名店，務必提前 1-2 週訂位
+      .btn-group
+        a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=R・J+Cafe+名古屋" target="_blank") 📍 地圖
+        a.btn.btn-web(href="https://tabelog.com/aichi/A2301/A230103/23000855/" target="_blank") 🌐 Tabelog
+    
+    .restaurant-card
+      .restaurant-name
+        | あつた蓬莱軒 松坂屋店
+        span.priority-badge.priority-high 最高優先
+      .restaurant-info
+        | 📅 12/3 或 12/6
+        br
+        | 📍 松坂屋名古屋店 本館 10F
+        br
+        | 💰 ひつまぶし ¥3,800-4,500
+        br
+        | ⏰ 11:00-14:30, 17:00-20:30
+        br
+        | ⚠️ 鰻魚飯三吃名店，午餐時段常需排隊 1-2 小時
+      .btn-group
+        a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=あつた蓬莱軒+松坂屋店" target="_blank") 📍 地圖
+        a.btn.btn-web(href="https://www.houraiken.com/" target="_blank") 🌐 官網
+    
+    .section-title 🟡 建議訂位
+    
+    .restaurant-card
+      .restaurant-name
+        | 矢場とん 矢場町本店
+        span.priority-badge.priority-medium 中等優先
+      .restaurant-info
+        | 📅 12/3 或 12/5
+        br
+        | 📍 名古屋市中區大須 3-6-18
+        br
+        | 💰 ¥1,400-1,800
+        br
+        | ⏰ 11:00-21:00
+      .btn-group
+        a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=矢場とん+矢場町本店" target="_blank") 📍 地圖
+        a.btn.btn-web(href="https://www.yabaton.com/" target="_blank") 🌐 官網
+    
+    .restaurant-card
+      .restaurant-name
+        | 世界の山ちゃん 本店
+        span.priority-badge.priority-medium 中等優先
+      .restaurant-info
+        | 📅 12/6 (五) 19:00
+        br
+        | 📍 名古屋市中區栄 4-9-6
+        br
+        | 💰 幻の手羽先 ¥600/5本
+        br
+        | ⏰ 17:00-23:30
+      .btn-group
+        a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=世界の山ちゃん+本店" target="_blank") 📍 地圖
+        a.btn.btn-web(href="https://www.yamachan.co.jp/" target="_blank") 🌐 官網
+    
+    .restaurant-card
+      .restaurant-name
+        | 味仙 今池本店
+        span.priority-badge.priority-medium 中等優先
+      .restaurant-info
+        | 📅 12/5 (四) 晚餐
+        br
+        | 📍 名古屋市千種區今池 1-12-10
+        br
+        | 💰 台灣拉麵 ¥700-900
+        br
+        | ⏰ 17:30-01:00 (週日至 24:00)
+      .btn-group
+        a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=味仙+今池本店" target="_blank") 📍 地圖
+    
+    .restaurant-card
+      .restaurant-name
+        | 風來坊 名駅店
+        span.priority-badge.priority-medium 中等優先
+      .restaurant-info
+        | 📍 名古屋市中村區名駅 4-10-20
+        br
+        | 💰 元祖手羽先唐揚 ¥594/5本
+        br
+        | ⏰ 15:00-23:00
+      .btn-group
+        a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=風來坊+名駅店" target="_blank") 📍 地圖
+        a.btn.btn-web(href="https://www.furaibou.com/" target="_blank") 🌐 官網
+    
+    .restaurant-card
+      .restaurant-name
+        | Y.MARKET BREWING
+        span.priority-badge.priority-medium 中等優先
+      .restaurant-info
+        | 📅 12/7 (六) 18:30
+        br
+        | 📍 名古屋市西區那古野 1-36-18
+        br
+        | 💰 ¥3,000-5,000/人
+        br
+        | ⏰ 17:00-23:00 (週日至 22:00)
+        br
+        | 🍺 精釀啤酒 + 下酒菜
+      .btn-group
+        a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=Y.MARKET+BREWING+名古屋" target="_blank") 📍 地圖
+    
+    .tips-box(style="margin-top: 20px;")
+      strong 📞 訂位實用日文
+      br
+      br
+      | もしもし、予約したいのですが。
+      br
+      | (您好，我想訂位)
+      br
+      br
+      | 12月○日、○時、○名でお願いします。
+      br
+      | (12月○日，○點，○位，麻煩您)
+      br
+      br
+      | 名前は [您的姓名] です。
+      br
+      | (我的名字是...)
+      br
+      br
+      | 電話番号は [您的電話] です。
+      br
+      | (電話號碼是...)
+
+  //- 緊急聯絡 Tab
+  #emergency.tab-content
+    .section-title 🆘 緊急聯絡資訊
+    
+    .day-card
+      h3(style="margin-bottom: 15px; font-weight: 700;") 🚨 日本緊急電話
+      .restaurant-info(style="font-size: 1rem;")
+        strong 警察：110
+        br
+        strong 消防/救護：119
+        br
+        br
+        | 💡 這些號碼可直接撥打
+    
+    .day-card
+      h3(style="margin-bottom: 15px; font-weight: 700;") 🇹🇼 台灣駐日單位
+      
+      .activity-title 台北駐日經濟文化代表處
+      .activity-details(style="margin-bottom: 15px;")
+        | 📞 +81-3-3280-7811
+        br
+        | 📍 東京都港區白金台 5-20-2
+        br
+        | ⏰ 09:00-17:30 (週一至週五)
+        br
+        | 💡 護照遺失、緊急協助
+      .btn-group
+        a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=台北駐日經濟文化代表處" target="_blank") 📍 地圖
+      
+      .activity-title(style="margin-top: 20px;") 台北駐大阪經濟文化辦事處
+      .activity-details(style="margin-bottom: 15px;")
+        | 📞 +81-6-6443-8481
+        br
+        | 📍 大阪市西區土佐堀 1-4-8
+        br
+        | ⏰ 09:00-17:30 (週一至週五)
+        br
+        | 💡 較接近名古屋的台灣辦事處
+      .btn-group
+        a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=台北駐大阪經濟文化辦事處" target="_blank") 📍 地圖
+    
+    .day-card
+      h3(style="margin-bottom: 15px; font-weight: 700;") 🏥 名古屋醫療機構
+      
+      .activity-title 名古屋市立大學醫院
+      .activity-details
+        | 📞 +81-52-851-5511
+        br
+        | 📍 名古屋市瑞穗區瑞穗町字川澄 1
+        br
+        | 💡 大型綜合醫院，有英文服務
+      .btn-group
+        a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=名古屋市立大学病院" target="_blank") 📍 地圖
+      
+      .activity-title(style="margin-top: 20px;") 名古屋第二赤十字醫院
+      .activity-details
+        | 📞 +81-52-832-1121
+        br
+        | 📍 名古屋市昭和區妙見町 2-9
+        br
+        | 💡 24小時急診
+      .btn-group
+        a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=名古屋第二赤十字病院" target="_blank") 📍 地圖
+    
+    .day-card
+      h3(style="margin-bottom: 15px; font-weight: 700;") 🚔 警察局
+      
+      .activity-title 中村警察署 (名古屋站附近)
+      .activity-details
+        | 📞 +81-52-582-0110
+        br
+        | 📍 名古屋市中村區名駅 4-2-21
+      .btn-group
+        a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=中村警察署" target="_blank") 📍 地圖
+      
+      .activity-title(style="margin-top: 20px;") 中區警察署 (榮商圈附近)
+      .activity-details
+        | 📞 +81-52-241-0110
+        br
+        | 📍 名古屋市中區大須 3-1-1
+      .btn-group
+        a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=中警察署+名古屋" target="_blank") 📍 地圖
+    
+    .day-card
+      h3(style="margin-bottom: 15px; font-weight: 700;") ✈️ 航空公司
+      
+      .activity-title 樂桃航空客服
+      .activity-details
+        | 📞 台灣: 02-8793-3579
+        br
+        | 📞 日本: 0570-001-292
+        br
+        | 💡 航班查詢、變更
+      .btn-group
+        a.btn.btn-web(href="https://www.flypeach.com/" target="_blank") 🌐 官網
+    
+    .day-card
+      h3(style="margin-bottom: 15px; font-weight: 700;") 🏨 住宿飯店
+      
+      .activity-title Comfort Hotel Nagoya Meiekiminami
+      .activity-details
+        | 📞 +81-52-581-7211
+        br
+        | 📍 名古屋市中村區名駅南1-14-16
+      .btn-group
+        a.btn.btn-map(href="https://www.google.com/maps/search/?api=1&query=Comfort+Hotel+Nagoya+Meiekiminami" target="_blank") 📍 地圖
+    
+    .alert(style="margin-top: 20px;")
+      strong ⚠️ 重要提醒
+      br
+      | • 出國前記得購買旅遊保險
+      br
+      | • 將重要電話號碼存在手機
+      br
+      | • 護照影本另外保存
+      br
+      | • 信用卡掛失電話要記下
+      br
+      | • 緊急聯絡人資訊隨身攜帶
+
+  //- 清單 Tab
+  #checklist.tab-content
+    .section-title 📋 行前檢查清單
+    
+    .checklist
+      .checklist-category 📄 證件類
+      .checklist-item
+        input(type="checkbox" id="check1")
+        label(for="check1") 護照 (效期 6 個月以上)
+      .checklist-item
+        input(type="checkbox" id="check2")
+        label(for="check2") 電子機票 (紙本或手機截圖)
+      .checklist-item
+        input(type="checkbox" id="check3")
+        label(for="check3") 飯店預約確認單
+      .checklist-item
+        input(type="checkbox" id="check4")
+        label(for="check4") 餐廳訂位確認
+    
+    .checklist
+      .checklist-category 💰 支付類
+      .checklist-item
+        input(type="checkbox" id="check5")
+        label(for="check5") 日圓現金 (¥30,000-50,000)
+      .checklist-item
+        input(type="checkbox" id="check6")
+        label(for="check6") 信用卡 (免海外手續費)
+      .checklist-item
+        input(type="checkbox" id="check7")
+        label(for="check7") IC 卡 (Manaca/Suica/Pasmo)
+      .checklist-item
+        input(type="checkbox" id="check8")
+        label(for="check8") 台幣零錢 (回程用)
+    
+    .checklist
+      .checklist-category 🧥 衣物類
+      .checklist-item
+        input(type="checkbox" id="check9")
+        label(for="check9") 保暖外套 (羽絨或厚外套)
+      .checklist-item
+        input(type="checkbox" id="check10")
+        label(for="check10") 發熱衣 (2-3 件)
+      .checklist-item
+        input(type="checkbox" id="check11")
+        label(for="check11") 毛衣/中層衣物 (2-3 件)
+      .checklist-item
+        input(type="checkbox" id="check12")
+        label(for="check12") 長褲 (2-3 件)
+      .checklist-item
+        input(type="checkbox" id="check13")
+        label(for="check13") 圍巾、手套、毛帽
+      .checklist-item
+        input(type="checkbox" id="check14")
+        label(for="check14") 舒適好走的鞋 (防滑)
+    
+    .checklist
+      .checklist-category 🔌 電器類
+      .checklist-item
+        input(type="checkbox" id="check15")
+        label(for="check15") 手機 + 充電器
+      .checklist-item
+        input(type="checkbox" id="check16")
+        label(for="check16") 行動電源 (10,000mAh 以上)
+      .checklist-item
+        input(type="checkbox" id="check17")
+        label(for="check17") 相機 + 記憶卡 + 充電器
+      .checklist-item
+        input(type="checkbox" id="check18")
+        label(for="check18") 萬用轉接頭
+      .checklist-item
+        input(type="checkbox" id="check19")
+        label(for="check19") 延長線 (3-4 孔)
+    
+    .checklist
+      .checklist-category 🧴 盥洗用品
+      .checklist-item
+        input(type="checkbox" id="check20")
+        label(for="check20") 牙刷、牙膏
+      .checklist-item
+        input(type="checkbox" id="check21")
+        label(for="check21") 洗面乳、卸妝用品
+      .checklist-item
+        input(type="checkbox" id="check22")
+        label(for="check22") 護膚品 (化妝水、乳液)
+      .checklist-item
+        input(type="checkbox" id="check23")
+        label(for="check23") 保濕用品 (護手霜、唇膏)
+    
+    .checklist
+      .checklist-category 💊 藥品類
+      .checklist-item
+        input(type="checkbox" id="check24")
+        label(for="check24") 個人處方藥 (備足 6 天份)
+      .checklist-item
+        input(type="checkbox" id="check25")
+        label(for="check25") 感冒藥
+      .checklist-item
+        input(type="checkbox" id="check26")
+        label(for="check26") 腸胃藥
+      .checklist-item
+        input(type="checkbox" id="check27")
+        label(for="check27") 止痛藥
+      .checklist-item
+        input(type="checkbox" id="check28")
+        label(for="check28") OK 繃、小護理包
+    
+    .checklist
+      .checklist-category 🎒 其他類
+      .checklist-item
+        input(type="checkbox" id="check29")
+        label(for="check29") 環保袋 (2-3 個)
+      .checklist-item
+        input(type="checkbox" id="check31")
+        label(for="check31") 空行李箱空間/折疊行李袋
+      .checklist-item
+        input(type="checkbox" id="check32")
+        label(for="check32") 雨傘/輕便雨衣
+      .checklist-item
+        input(type="checkbox" id="check33")
+        label(for="check33") 口罩 (多個)
+    
+    .section-title 📅 出發前待辦事項
+    
+    .checklist
+      .checklist-category 🗓️ 兩週前
+      .checklist-item
+        input(type="checkbox" id="todo1")
+        label(for="todo1") R・J Cafe 訂位
+      .checklist-item
+        input(type="checkbox" id="todo2")
+        label(for="todo2") あつた蓬莱軒訂位
+      .checklist-item
+        input(type="checkbox" id="todo3")
+        label(for="todo3") 確認護照效期
+      .checklist-item
+        input(type="checkbox" id="todo4")
+        label(for="todo4") 換匯日圓
+    
+    .checklist
+      .checklist-category 🗓️ 一週前
+      .checklist-item
+        input(type="checkbox" id="todo5")
+        label(for="todo5") 其他餐廳訂位
+      .checklist-item
+        input(type="checkbox" id="todo6")
+        label(for="todo6") 確認天氣預報
+      .checklist-item
+        input(type="checkbox" id="todo7")
+        label(for="todo7") 下載必備 App
+      .checklist-item
+        input(type="checkbox" id="todo8")
+        label(for="todo8") 下載離線地圖
+    
+    .checklist
+      .checklist-category 🗓️ 前一天
+      .checklist-item
+        input(type="checkbox" id="todo9")
+        label(for="todo9") 行李打包完成
+      .checklist-item
+        input(type="checkbox" id="todo10")
+        label(for="todo10") 航班再次確認
+      .checklist-item
+        input(type="checkbox" id="todo11")
+        label(for="todo11") 設定鬧鐘
+
+.bottom-nav
+  a.bottom-nav-item.active(href="#" onclick="showBottomTab('overview'); return false;")
+    span.bottom-nav-icon 🏠
+    | 總覽
+  a.bottom-nav-item(href="#" onclick="showBottomTab('day1'); return false;")
+    span.bottom-nav-icon 📅
+    | 行程
+  a.bottom-nav-item(href="#" onclick="showBottomTab('restaurants'); return false;")
+    span.bottom-nav-icon 🍜
+    | 餐廳
+  a.bottom-nav-item(href="#" onclick="showBottomTab('emergency'); return false;")
+    span.bottom-nav-icon 🆘
+    | 緊急
+  a.bottom-nav-item(href="#" onclick="showBottomTab('checklist'); return false;")
+    span.bottom-nav-icon ✅
+    | 清單
